@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [ "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/popper.js/dist/umd/popper.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "charts-examples"
+    }
+  },
+  "defaultProject": "charts-examples",
+  "cli": {
+    "analytics": "5c1ae3e9-a433-49b4-95ce-c03603391e7c"
+  }
 }
